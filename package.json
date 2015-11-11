@@ -8,6 +8,7 @@
     "dotenv"
   ],
   "author": "Martin Muñoz <im.mmun@gmail.com>",
+  "repository": "https://github.com/mmun/ember-cli-envy.git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
