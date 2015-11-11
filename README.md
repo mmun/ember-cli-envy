@@ -12,7 +12,7 @@ ember install ember-cli-envy
 
 ## Configuration (optional)
 
-You can optionally configure `dotenv` by place a configuration file at `config/envy.js` that exports an options hash. The path is passed directly to `dotenv.config` after normalizing the `path`. For example
+You can optionally configure `dotenv` by place a configuration file at `config/envy.js` that exports an options hash. The path is passed directly to [`dotenv.config`](https://github.com/motdotla/dotenv#config) after normalizing the `path`. For example
 
 ```js
 module.exports = {
