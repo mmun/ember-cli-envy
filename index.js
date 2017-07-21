@@ -14,6 +14,7 @@ module.exports = {
   name: 'ember-cli-envy',
 
   init: function() {
+    this._super.init && this._super.init.apply(this, arguments);
     var projectRoot = this.project.root;
     var projectConfig = getProjectConfig(projectRoot);
     var config = {};
